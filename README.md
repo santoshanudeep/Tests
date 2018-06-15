@@ -1,9 +1,9 @@
 # Tests
 
-1. The repository contains all the related code for the two tasks given the case study document
+1. The repository contains all the related code for the two tasks given the case study document.
 2. For the selenium task I used two different websites for the different test cases outlined.
-3. I was unable to check the code for Internet explorer as I did not have access to Windows System
-4. For the JMeter tasks the version of JMeter used was Apache JMeter Version 4.0 r1823414 for Mac OS
+3. I was unable to check the code for Internet explorer as I did not have access to Windows System.
+4. For the JMeter tasks the version of JMeter used was Apache JMeter Version 4.0 r1823414 for Mac OS.
 4. For the JMeter tasks I used existing fake apis from https://jsonplaceholder.typicode.com/
 5. For the load test my estimate of the user was 300 but was unable to send that many requests as
 more requests started throwing the socketException. So the load test was configured for 200 users.
