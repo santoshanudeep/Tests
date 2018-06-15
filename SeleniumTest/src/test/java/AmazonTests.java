@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class AmazonTests {
 
-    AmazonPageObejcts amazonTestObjects = new AmazonPageObejcts();
+    AmazonPageObjects amazonTestObjects = new AmazonPageObjects();
     WebDriver driver = TestSetup.createFirefoxDriver();
 
     @Test(priority = 1)

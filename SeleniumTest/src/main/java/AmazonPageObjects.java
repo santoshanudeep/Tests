@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 
-public class AmazonPageObejcts {
+public class AmazonPageObjects {
 
     int locationX = 1237;
     int locationY = 126;
