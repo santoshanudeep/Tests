@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class TestSetup {
 
@@ -14,5 +15,10 @@ public class TestSetup {
         driverObject = new FirefoxDriver();
         return (FirefoxDriver) driverObject;
         }
+    public static InternetExplorerDriver InternetExplorerDriver(){
+        WebDriver driverObject;
+        driverObject = new InternetExplorerDriver();
+        return (InternetExplorerDriver) driverObject;
+    }
     }
 
