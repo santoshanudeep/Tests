@@ -17,19 +17,20 @@ public class AmazonTests {
         //Location Test
         Point primePoint = driver.findElement(amazonTestObjects.getTryPrimeButton()).getLocation();
         Assert.assertEquals(primePoint,amazonTestObjects.getPrimeLocationPoint());
-        //color Test
         Thread.sleep(3000);
 
     }
     @Test(priority = 2)
     public void colorTest(){
         String backgroundColor = Color.fromString(driver.findElement(amazonTestObjects.getMenu()).getCssValue("background-color")).asHex();
+        //Color Test
         Assert.assertEquals(backgroundColor,amazonTestObjects.getMenuBackgroundColor());
     }
 
     @Test(priority = 3)
     public void fontTest(){
         String menuFontFamily = driver.findElement(amazonTestObjects.getUserMenu()).getCssValue("font-family");
+        //Font Test
         Assert.assertEquals(menuFontFamily,amazonTestObjects.getFontFamily());
 
     }

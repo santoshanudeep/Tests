@@ -6,7 +6,6 @@ public class AmazonPageObejcts {
     int locationX = 1237;
     int locationY = 126;
     private String amazonUrl = "https://www.amazon.com/";
-    private By signInButton = By.xpath("//*[@id=\"nav-link-accountList\"]");
     private By tryPrimeButton = By.xpath("//*[@id=\"nav-link-prime\"]");
     private By menu = By.xpath("//*[@id=\"nav-xshop-container\"]");
     private By userMenu = By.xpath("//*[@id=\"nav-tools\"]");
@@ -20,10 +19,6 @@ public class AmazonPageObejcts {
 
     public String getAmazonUrl() {
         return amazonUrl;
-    }
-
-    public By getSignInButton() {
-        return signInButton;
     }
 
     public By getTryPrimeButton() {
@@ -41,7 +36,6 @@ public class AmazonPageObejcts {
     public By getUserMenu() {
         return userMenu;
     }
-
 
     public String getFontFamily() {
         return fontFamily;
